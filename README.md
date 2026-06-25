@@ -1,4 +1,4 @@
-# 🩺 SkinGuard AI – Advanced Skin Disease Detection & DrugGPT Assistant
+# 🩺 SkinGuard AI – Advanced Skin Disease Detection & DrugGPT Assistant [CNN Based Models]
 
 <div align="center">
 
