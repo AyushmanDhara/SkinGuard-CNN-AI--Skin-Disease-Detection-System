@@ -245,7 +245,7 @@ SkinGuard-AI/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/SkinGuard-AI.git
+git clone https://github.com/AyushmanDhara/SkinGuard-CNN-AI--Skin-Disease-Detection-System.git
 cd SkinGuard-AI
 ```
 
