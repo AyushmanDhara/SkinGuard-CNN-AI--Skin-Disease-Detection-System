@@ -1,207 +1,225 @@
-# 🩺 SkinGuard AI – Advanced Skin Disease Detection & DrugGPT Assistant [CNN Based Models]
+# 🩺 SkinGuard AI
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
-![Gradio](https://img.shields.io/badge/Gradio-Web%20Interface-orange)
-![Healthcare](https://img.shields.io/badge/Healthcare-AI-green)
-![License](https://img.shields.io/badge/License-MIT-purple)
+# Advanced Skin Disease Detection & DrugGPT Healthcare Assistant
 
-### AI-Powered Skin Disease Detection with Intelligent Treatment Guidance
+AI-powered skin disease detection system built with Deep Learning, Computer Vision, and an intelligent medical assistant.
 
 🌐 **Live Demo:** https://huggingface.co/spaces/adalis/SkinGuard-AI-Skin-Disease-Detection-System
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+![Gradio](https://img.shields.io/badge/Gradio-UI-orange)
+![Healthcare](https://img.shields.io/badge/AI-Healthcare-green)
+![License](https://img.shields.io/badge/License-MIT-purple)
 
 </div>
 
 ---
 
-## 📖 Overview
+# 📖 Overview
 
-SkinGuard AI is an advanced healthcare-focused web application that combines **Deep Learning**, **Computer Vision**, and an intelligent medical assistant called **DrugGPT** to help users analyze skin conditions from images.
+SkinGuard AI is an intelligent healthcare platform that combines state-of-the-art deep learning models with an AI-powered medical assistant to analyze skin images and provide educational insights about skin diseases.
 
-Users can upload a skin image, receive instant AI-powered disease predictions, view confidence scores, learn about symptoms and causes, explore treatment options, and access educational medicine guidance through DrugGPT.
-
-The platform is designed for research, education, and AI healthcare demonstrations while providing an intuitive and modern user experience.
+The system can identify multiple dermatological conditions, provide confidence scores, explain symptoms and causes, suggest educational treatment information, and offer prevention recommendations through DrugGPT.
 
 ---
 
-## ✨ Key Features
+# ✨ Key Features
 
-### 🔍 AI Skin Disease Detection
-- Upload skin images for analysis
-- Deep learning-powered disease classification
-- Confidence score prediction
-- Fast and accurate inference
-- Real-time results
+## 🔍 AI Skin Disease Detection
 
-### 🤖 DrugGPT Assistant
-- AI-powered healthcare chatbot
-- Disease explanations
-- Symptom analysis
-- Medicine information
-- Treatment guidance
-- Prevention recommendations
-- Doctor consultation advice
+* Deep learning-based image classification
+* Real-time disease prediction
+* Confidence score visualization
+* 20 supported skin disease categories
+* Fast inference and analysis
 
-### 📊 Clinical Information
-- Disease severity assessment
-- Contagiousness information
-- Home-care recommendations
-- Topical treatment guidance
-- Systemic treatment information
+## 🤖 DrugGPT Assistant
 
-### 🎨 Modern User Experience
-- Responsive design
-- Mobile-friendly interface
-- Interactive dashboard
-- Dark healthcare-inspired UI
+* Disease explanations
+* Symptom analysis
+* Treatment information
+* Medicine knowledge base
+* Prevention guidance
+* Doctor consultation recommendations
+
+## 📊 Clinical Insights
+
+* Disease severity assessment
+* Contagiousness information
+* Home-care recommendations
+* Risk factor analysis
+
+## 🎨 Modern Interface
+
+* Responsive design
+* Dark futuristic UI
+* Mobile-friendly experience
+* Interactive dashboards
+
+---
+
+# 📊 Model Performance
+
+## 🧠 Architecture
+
+| Metric              | Value               |
+| ------------------- | ------------------- |
+| Model Backbone      | EfficientNet-B4     |
+| Classification Head | Custom Dense Layers |
+| Framework           | PyTorch             |
+| Disease Classes     | 20                  |
+| Dataset Size        | 10,000 Images       |
+| Deployment          | Hugging Face Spaces |
+
+---
+
+## 📈 Performance Metrics
+
+| Metric        | Score  |
+| ------------- | ------ |
+| Test Accuracy | 92.7%  |
+| Precision     | 92.76% |
+| Recall        | 92.73% |
+| Classes       | 20     |
+| Total Images  | 10,000 |
+
+---
+
+## 📂 Dataset Split
+
+| Dataset    | Images |
+| ---------- | ------ |
+| Training   | 7,000  |
+| Validation | 1,500  |
+| Testing    | 1,500  |
+
+---
+
+# 📷 Training Dashboard
+
+![Training Dashboard](assets/training_dashboard.png)
+
+The model demonstrates stable convergence with strong validation performance and minimal overfitting.
 
 ---
 
 # 🩺 Supported Diseases
 
-SkinGuard AI currently supports detection and educational guidance for multiple categories of skin diseases.
+## 🔥 Inflammatory Conditions
 
-## 🔥 Inflammatory Diseases
+* Acne & Rosacea
+* Atopic Dermatitis (Eczema)
+* Skin Rashes
+* Urticaria (Hives)
+* Vasculitis
 
-| Disease |
-|----------|
-| Acne & Rosacea |
-| Atopic Dermatitis (Eczema) |
-| Skin Rashes |
-| Urticaria (Hives) |
-| Vasculitis |
+## 🦠 Bacterial Diseases
 
----
+* Cellulitis
+* Impetigo
 
-## 🦠 Bacterial Infections
+## 🍄 Fungal Diseases
 
-| Disease |
-|----------|
-| Cellulitis |
-| Impetigo |
-
----
-
-## 🍄 Fungal Infections
-
-| Disease |
-|----------|
-| Athlete's Foot |
-| Ringworm |
-| Fungal Nail Infection |
-| Nail Fungus & Nail Diseases |
-
----
+* Athlete's Foot
+* Ringworm
+* Fungal Nail Infection
+* Nail Diseases
 
 ## 🧬 Viral Diseases
 
-| Disease |
-|----------|
-| Chickenpox |
-| Shingles |
-| Herpes |
-| HPV-related Conditions |
-
----
+* Chickenpox
+* Shingles
+* Herpes
+* HPV Related Conditions
 
 ## 🪱 Parasitic Diseases
 
-| Disease |
-|----------|
-| Cutaneous Larva Migrans |
-
----
+* Cutaneous Larva Migrans
 
 ## 🎗️ Skin Cancer & Lesions
 
-| Disease |
-|----------|
-| Melanoma |
-| Malignant Skin Lesions |
-| Benign Skin Lesions |
-| Nevi & Moles |
-
----
+* Melanoma
+* Malignant Skin Lesions
+* Benign Skin Lesions
+* Moles & Nevi
 
 ## 💇 Hair Disorders
 
-| Disease |
-|----------|
-| Alopecia |
-| Hair Loss Disorders |
+* Alopecia
+* Hair Loss Disorders
 
----
+## ✅ Healthy Skin Detection
 
-## ✅ Normal Skin Detection
-
-| Category |
-|-----------|
-| Healthy Skin |
+* Normal Skin Classification
 
 ---
 
 # 🤖 DrugGPT Healthcare Assistant
 
-DrugGPT is an integrated medical intelligence system that transforms SkinGuard AI from a simple classifier into a comprehensive healthcare assistant.
+DrugGPT transforms SkinGuard AI from a simple image classifier into a comprehensive healthcare education platform.
 
-## DrugGPT Provides
+## DrugGPT Features
 
 ### 📚 Disease Knowledge
-- Disease overview
-- Causes
-- Symptoms
-- Risk factors
-- Severity information
 
-### 💊 Treatment Information
-- Common treatment approaches
-- Topical medication guidance
-- Systemic treatment information
-- Home care recommendations
-- Preventive measures
+* Disease overview
+* Symptoms
+* Causes
+* Risk factors
+* Severity levels
 
-### 🚨 Safety Guidance
-- Emergency warning signs
-- Doctor consultation recommendations
-- High-risk condition alerts
-- Severity assessment
+### 💊 Treatment Guidance
+
+* Topical treatments
+* Systemic treatments
+* Home-care recommendations
+* Prevention methods
+
+### 🚨 Medical Guidance
+
+* Doctor visit recommendations
+* Critical warning signs
+* Disease monitoring information
 
 ---
 
-## 💊 Medicine Knowledge Base
+# 💊 Medicine Knowledge Base
 
-DrugGPT contains educational information related to commonly used treatments for supported diseases, including:
+DrugGPT includes educational information about commonly used treatments.
 
 ### Acne & Rosacea
-- Benzoyl Peroxide
-- Adapalene
-- Azelaic Acid
-- Metronidazole
-- Oral Antibiotics
-- Isotretinoin
+
+* Benzoyl Peroxide
+* Adapalene
+* Azelaic Acid
+* Metronidazole
+* Isotretinoin
 
 ### Eczema
-- Hydrocortisone
-- Tacrolimus
-- Pimecrolimus
-- Antihistamines
+
+* Hydrocortisone
+* Tacrolimus
+* Pimecrolimus
+* Antihistamines
 
 ### Fungal Diseases
-- Clotrimazole
-- Terbinafine
-- Miconazole
-- Oral Antifungals
+
+* Clotrimazole
+* Terbinafine
+* Miconazole
 
 ### Viral Diseases
-- Acyclovir
-- Valacyclovir
-- Antiviral Therapies
+
+* Acyclovir
+* Valacyclovir
 
 ### Allergic Conditions
-- Antihistamines
-- Corticosteroids
+
+* Antihistamines
+* Corticosteroids
 
 > DrugGPT provides educational information only and does not prescribe medications.
 
@@ -216,9 +234,9 @@ SkinGuard-AI/
 ├── model.py
 ├── best_model.pth
 ├── class_mapping.json
-├── skin_disease_data.py
-├── medicine_database.json
 ├── druggpt_engine.py
+├── medicine_database.json
+├── skin_disease_data.py
 ├── training_metrics.json
 ├── requirements.txt
 └── README.md
@@ -226,36 +244,22 @@ SkinGuard-AI/
 
 ---
 
-# 🧠 Technology Stack
-
-| Component | Technology |
-|------------|------------|
-| Programming Language | Python |
-| Deep Learning | PyTorch |
-| Interface | Gradio |
-| Image Processing | Pillow |
-| Numerical Computing | NumPy |
-| Deployment | Hugging Face Spaces |
-| Data Storage | JSON |
-
----
-
 # 🚀 Installation
 
-## Clone Repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/AyushmanDhara/SkinGuard-CNN-AI--Skin-Disease-Detection-System.git
+git clone https://github.com/your-username/SkinGuard-AI.git
 cd SkinGuard-AI
 ```
 
-## Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run Application
+### Run Application
 
 ```bash
 python app.py
@@ -263,36 +267,35 @@ python app.py
 
 ---
 
-# 📸 How It Works
+# 🧠 How It Works
 
 1. Upload a skin image.
-2. AI preprocesses the image.
-3. Deep learning model performs analysis.
-4. Disease prediction is generated.
-5. Confidence score is calculated.
+2. The image is preprocessed.
+3. EfficientNet-B4 analyzes visual patterns.
+4. The model predicts the most likely disease.
+5. Confidence scores are generated.
 6. Disease information is displayed.
-7. DrugGPT provides treatment and prevention guidance.
+7. DrugGPT provides educational treatment guidance.
 
 ---
 
-# 🎯 Use Cases
+# 🎯 Applications
 
-- Medical AI Research
-- Academic Projects
-- Healthcare Demonstrations
-- Computer Vision Applications
-- Skin Disease Education
-- AI-Powered Healthcare Systems
+* AI Healthcare Research
+* Medical Education
+* Dermatology Demonstrations
+* Deep Learning Projects
+* Computer Vision Research
 
 ---
 
-# ⚠️ Medical Disclaimer
+# ⚠️ Disclaimer
 
-SkinGuard AI and DrugGPT are designed for educational, research, and demonstration purposes only.
+SkinGuard AI and DrugGPT are intended for educational, research, and demonstration purposes only.
 
-The system does not provide medical diagnoses, prescriptions, or professional healthcare advice. Predictions may contain inaccuracies and should not be used as a substitute for consultation with licensed healthcare professionals.
+The application does not provide medical diagnoses, prescriptions, or professional healthcare advice. Predictions may contain inaccuracies and should never replace consultation with qualified healthcare professionals.
 
-Always seek advice from qualified medical practitioners regarding diagnosis, treatment, and medication decisions.
+Always seek advice from licensed medical practitioners regarding diagnosis, treatment, and medication decisions.
 
 ---
 
@@ -301,18 +304,18 @@ Always seek advice from qualified medical practitioners regarding diagnosis, tre
 Contributions are welcome.
 
 1. Fork the repository
-2. Create a feature branch
+2. Create a new branch
 3. Commit your changes
-4. Push your branch
+4. Push the branch
 5. Open a Pull Request
 
 ---
 
-<!-- # 📜 License
+<!--# 📜 License
 
-This project is licensed under the MIT License.
+MIT License
 
---- -->
+--->
 
 <div align="center">
 
