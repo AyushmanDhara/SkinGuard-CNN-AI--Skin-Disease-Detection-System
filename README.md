@@ -298,7 +298,7 @@ You can download the latest pre-trained model from the **GitHub Releases** page.
 ## Download
 
 ➡️ **GitHub Releases:**
-https://github.com/your-username/SkinGuard-AI/releases
+https://github.com/AyushmanDhara/SkinGuard-CNN-AI--Skin-Disease-Detection-System/releases/tag/v1.0
 
 Download the following asset:
 
