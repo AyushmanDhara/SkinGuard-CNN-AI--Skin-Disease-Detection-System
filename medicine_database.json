@@ -1,0 +1,487 @@
+{
+  "medicines": {
+    "Benzoyl Peroxide": {
+      "drug_class": "Topical antimicrobial / keratolytic",
+      "indications": "Mild to moderate acne vulgaris; reduces P. acnes bacteria and unclogs pores.",
+      "contraindications": "Known hypersensitivity to benzoyl peroxide; avoid on broken or sunburned skin.",
+      "side_effects": "Dryness, peeling, redness, mild stinging; can bleach hair and fabric.",
+      "prescription_required": false,
+      "pregnancy_warning": "Generally considered low-risk topically; discuss with a doctor before use in pregnancy.",
+      "age_limit": "12+ (consult a pediatrician for younger children).",
+      "evidence_source": "FDA OTC monograph; AAD acne guidelines."
+    },
+    "Adapalene": {
+      "drug_class": "Topical retinoid",
+      "indications": "Comedonal and mild inflammatory acne; normalizes follicular keratinization.",
+      "contraindications": "Eczema-prone or sunburned skin; avoid with other strong exfoliants concurrently.",
+      "side_effects": "Dryness, peeling, photosensitivity, initial purging breakout.",
+      "prescription_required": false,
+      "pregnancy_warning": "Topical retinoids are generally avoided in pregnancy; consult a physician.",
+      "age_limit": "12+.",
+      "evidence_source": "FDA-approved OTC switch (2016); AAD acne guidelines."
+    },
+    "Tretinoin": {
+      "drug_class": "Topical retinoid",
+      "indications": "Acne vulgaris and photoaging; increases skin cell turnover.",
+      "contraindications": "Pregnancy, eczema, sunburned or broken skin.",
+      "side_effects": "Redness, peeling, dryness, sun sensitivity.",
+      "prescription_required": true,
+      "pregnancy_warning": "Contraindicated in pregnancy (teratogenic risk associated with retinoids).",
+      "age_limit": "12+ as prescribed by a clinician.",
+      "evidence_source": "AAD acne guidelines; FDA label."
+    },
+    "Azelaic Acid": {
+      "drug_class": "Topical dicarboxylic acid (antimicrobial/anti-inflammatory)",
+      "indications": "Acne and rosacea; reduces inflammation and bacterial growth.",
+      "contraindications": "Known hypersensitivity to azelaic acid.",
+      "side_effects": "Mild burning, itching, or stinging on application.",
+      "prescription_required": false,
+      "pregnancy_warning": "Considered one of the safer topical options in pregnancy, but confirm with a doctor.",
+      "age_limit": "12+.",
+      "evidence_source": "AAD acne and rosacea guidelines."
+    },
+    "Isotretinoin": {
+      "drug_class": "Oral retinoid",
+      "indications": "Severe, nodulocystic, or treatment-resistant acne.",
+      "contraindications": "Pregnancy (absolute contraindication), liver disease, vitamin A supplementation.",
+      "side_effects": "Severe dryness, photosensitivity, elevated lipids/liver enzymes, mood changes, birth defects if pregnant.",
+      "prescription_required": true,
+      "pregnancy_warning": "Absolutely contraindicated — requires confirmed negative pregnancy tests and contraception (iPLEDGE-type programs).",
+      "age_limit": "12+ under close dermatologist supervision only.",
+      "evidence_source": "FDA label; AAD severe acne guidelines."
+    },
+    "Hydrocortisone": {
+      "drug_class": "Low-potency topical corticosteroid",
+      "indications": "Mild eczema, dermatitis, insect bites, and general itchy rashes.",
+      "contraindications": "Active untreated skin infection (fungal, bacterial, viral) at the site.",
+      "side_effects": "Skin thinning with prolonged use, mild burning on application.",
+      "prescription_required": false,
+      "pregnancy_warning": "Low-potency topical steroids are generally considered low-risk; confirm with a doctor for prolonged use.",
+      "age_limit": "2+ for OTC strength; consult a doctor for infants.",
+      "evidence_source": "FDA OTC monograph; AAD eczema guidelines."
+    },
+    "Mometasone": {
+      "drug_class": "Mid-potency topical corticosteroid",
+      "indications": "Moderate eczema, psoriasis plaques, and inflammatory dermatoses.",
+      "contraindications": "Untreated skin infections; long-term use on the face, groin, or armpits.",
+      "side_effects": "Skin thinning, stretch marks, telangiectasia with prolonged use.",
+      "prescription_required": true,
+      "pregnancy_warning": "Use the lowest effective amount; discuss with a physician.",
+      "age_limit": "2+ under medical guidance.",
+      "evidence_source": "AAD atopic dermatitis guidelines; FDA label."
+    },
+    "Tacrolimus": {
+      "drug_class": "Topical calcineurin inhibitor",
+      "indications": "Moderate-to-severe atopic dermatitis, especially on sensitive areas like the face.",
+      "contraindications": "Immunosuppression-related skin infections; not for use under occlusion.",
+      "side_effects": "Burning or stinging on initial application, rare lymphoma signal (boxed warning).",
+      "prescription_required": true,
+      "pregnancy_warning": "Limited data; use only if benefits outweigh risks, under medical supervision.",
+      "age_limit": "2+ as prescribed.",
+      "evidence_source": "FDA boxed-warning label; AAD atopic dermatitis guidelines."
+    },
+    "Pimecrolimus": {
+      "drug_class": "Topical calcineurin inhibitor",
+      "indications": "Mild-to-moderate atopic dermatitis on sensitive skin areas.",
+      "contraindications": "Active skin infections at treatment site.",
+      "side_effects": "Application-site burning, headache (uncommon), rare lymphoma signal (boxed warning).",
+      "prescription_required": true,
+      "pregnancy_warning": "Limited data; use under medical supervision only.",
+      "age_limit": "2+ as prescribed.",
+      "evidence_source": "FDA boxed-warning label; AAD atopic dermatitis guidelines."
+    },
+    "Prednisone": {
+      "drug_class": "Oral corticosteroid",
+      "indications": "Severe inflammatory or autoimmune skin disease (e.g., vasculitis) under specialist care.",
+      "contraindications": "Systemic fungal infection, uncontrolled diabetes (relative), live vaccines during high-dose therapy.",
+      "side_effects": "Weight gain, mood changes, elevated blood sugar, bone thinning with long-term use.",
+      "prescription_required": true,
+      "pregnancy_warning": "Used only when clearly needed and under specialist supervision.",
+      "age_limit": "All ages as prescribed and dosed by a physician.",
+      "evidence_source": "Rheumatology/dermatology specialist guidelines; FDA label."
+    },
+    "Cephalexin": {
+      "drug_class": "First-generation cephalosporin antibiotic",
+      "indications": "Bacterial cellulitis, impetigo, and other skin/soft-tissue infections.",
+      "contraindications": "Known cephalosporin allergy; caution with severe penicillin allergy.",
+      "side_effects": "GI upset, diarrhea, allergic rash (rare), antibiotic-associated colitis (rare).",
+      "prescription_required": true,
+      "pregnancy_warning": "Generally considered compatible with pregnancy; confirm dose with an obstetric provider.",
+      "age_limit": "All ages, dosed by weight in children, as prescribed.",
+      "evidence_source": "IDSA skin & soft tissue infection guidelines."
+    },
+    "Amoxicillin-Clavulanate": {
+      "drug_class": "Beta-lactam antibiotic with beta-lactamase inhibitor",
+      "indications": "Bacterial cellulitis and mixed skin infections, especially with resistant organisms.",
+      "contraindications": "Penicillin allergy, history of amoxicillin-associated cholestatic jaundice.",
+      "side_effects": "Diarrhea, nausea, rash, rare liver enzyme elevation.",
+      "prescription_required": true,
+      "pregnancy_warning": "Generally considered compatible with pregnancy; confirm with a provider.",
+      "age_limit": "All ages, dosed by weight in children.",
+      "evidence_source": "IDSA skin & soft tissue infection guidelines."
+    },
+    "Clindamycin": {
+      "drug_class": "Lincosamide antibiotic",
+      "indications": "Bacterial cellulitis, acne (topical form), and infections in penicillin-allergic patients.",
+      "contraindications": "History of Clostridioides difficile colitis.",
+      "side_effects": "Diarrhea (including risk of C. diff colitis), GI upset, rash.",
+      "prescription_required": true,
+      "pregnancy_warning": "Generally considered usable in pregnancy when indicated; confirm with a provider.",
+      "age_limit": "All ages as prescribed.",
+      "evidence_source": "IDSA skin & soft tissue infection guidelines."
+    },
+    "Doxycycline": {
+      "drug_class": "Tetracycline antibiotic",
+      "indications": "Moderate inflammatory acne and rosacea, used for its anti-inflammatory effect.",
+      "contraindications": "Pregnancy, children under 8 (tooth discoloration risk).",
+      "side_effects": "Photosensitivity, GI upset, esophageal irritation if taken without water.",
+      "prescription_required": true,
+      "pregnancy_warning": "Contraindicated — tetracyclines can affect fetal bone/teeth development.",
+      "age_limit": "8+ only, due to tooth discoloration risk in younger children.",
+      "evidence_source": "AAD acne/rosacea guidelines; FDA label."
+    },
+    "Minocycline": {
+      "drug_class": "Tetracycline antibiotic",
+      "indications": "Moderate-to-severe inflammatory acne unresponsive to topical therapy.",
+      "contraindications": "Pregnancy, children under 8.",
+      "side_effects": "Dizziness, photosensitivity, rare skin/mucosal pigmentation with long-term use.",
+      "prescription_required": true,
+      "pregnancy_warning": "Contraindicated — tetracyclines affect fetal bone/teeth development.",
+      "age_limit": "8+ only.",
+      "evidence_source": "AAD acne guidelines; FDA label."
+    },
+    "Mupirocin": {
+      "drug_class": "Topical antibiotic",
+      "indications": "Localized impetigo and minor bacterial skin infections.",
+      "contraindications": "Known hypersensitivity to mupirocin or polyethylene glycol.",
+      "side_effects": "Local burning, itching, or stinging.",
+      "prescription_required": true,
+      "pregnancy_warning": "Topical use generally considered low systemic risk; confirm with a provider.",
+      "age_limit": "2 months+.",
+      "evidence_source": "AAD impetigo treatment guidelines."
+    },
+    "Retapamulin": {
+      "drug_class": "Topical pleuromutilin antibiotic",
+      "indications": "Localized impetigo caused by susceptible bacteria.",
+      "contraindications": "Known hypersensitivity to retapamulin.",
+      "side_effects": "Application-site irritation, itching.",
+      "prescription_required": true,
+      "pregnancy_warning": "Limited data; topical use considered low systemic exposure — confirm with a provider.",
+      "age_limit": "9 months+.",
+      "evidence_source": "FDA label; AAD impetigo guidelines."
+    },
+    "Clotrimazole": {
+      "drug_class": "Topical azole antifungal",
+      "indications": "Athlete's foot, ringworm, and other superficial dermatophyte/yeast infections.",
+      "contraindications": "Known hypersensitivity to azole antifungals.",
+      "side_effects": "Mild burning, redness, or irritation at application site.",
+      "prescription_required": false,
+      "pregnancy_warning": "Topical use generally considered low-risk; confirm with a doctor.",
+      "age_limit": "2+.",
+      "evidence_source": "FDA OTC antifungal monograph."
+    },
+    "Terbinafine": {
+      "drug_class": "Allylamine antifungal (topical or oral)",
+      "indications": "Athlete's foot, ringworm, and fungal nail infections.",
+      "contraindications": "Active liver disease (for oral form).",
+      "side_effects": "Topical: irritation. Oral: GI upset, rare liver enzyme elevation, taste disturbance.",
+      "prescription_required": "Topical: No · Oral: Yes",
+      "pregnancy_warning": "Oral terbinafine generally avoided in pregnancy unless clearly necessary; topical form lower risk.",
+      "age_limit": "12+ for topical OTC; oral form per clinician guidance.",
+      "evidence_source": "FDA label; AAD fungal infection guidelines."
+    },
+    "Miconazole": {
+      "drug_class": "Topical azole antifungal",
+      "indications": "Athlete's foot, ringworm, and other dermatophyte infections.",
+      "contraindications": "Known hypersensitivity to azole antifungals.",
+      "side_effects": "Local irritation, burning, itching.",
+      "prescription_required": false,
+      "pregnancy_warning": "Topical use generally considered low-risk; confirm with a doctor.",
+      "age_limit": "2+.",
+      "evidence_source": "FDA OTC antifungal monograph."
+    },
+    "Ketoconazole": {
+      "drug_class": "Azole antifungal (topical/shampoo)",
+      "indications": "Ringworm, athlete's foot, and seborrheic-type fungal skin conditions.",
+      "contraindications": "Known hypersensitivity; oral form has significant liver-toxicity and drug-interaction risk (largely phased out orally).",
+      "side_effects": "Topical: irritation, dryness. Oral form (rarely used): liver toxicity risk.",
+      "prescription_required": true,
+      "pregnancy_warning": "Topical use considered lower risk; confirm with a doctor, especially for oral form.",
+      "age_limit": "12+ for most topical formulations.",
+      "evidence_source": "FDA label; AAD fungal infection guidelines."
+    },
+    "Fluconazole": {
+      "drug_class": "Triazole antifungal (oral)",
+      "indications": "Fungal nail infections and systemic or resistant fungal skin infections.",
+      "contraindications": "Severe liver disease, concurrent use with certain QT-prolonging drugs.",
+      "side_effects": "Headache, GI upset, rare liver enzyme elevation, QT prolongation risk.",
+      "prescription_required": true,
+      "pregnancy_warning": "High-dose use linked to birth defects; use only if clearly necessary and under medical supervision.",
+      "age_limit": "All ages as prescribed and dosed by a physician.",
+      "evidence_source": "FDA label; AAD fungal nail infection guidelines."
+    },
+    "Itraconazole": {
+      "drug_class": "Triazole antifungal (oral)",
+      "indications": "Fungal nail infections and resistant dermatophyte infections.",
+      "contraindications": "Heart failure history, concurrent use with many interacting drugs.",
+      "side_effects": "GI upset, liver enzyme elevation, rare heart failure exacerbation.",
+      "prescription_required": true,
+      "pregnancy_warning": "Avoided in pregnancy except in life-threatening infections; consult a physician.",
+      "age_limit": "All ages as prescribed by a physician.",
+      "evidence_source": "FDA label; AAD fungal nail infection guidelines."
+    },
+    "Ciclopirox": {
+      "drug_class": "Topical antifungal (nail lacquer)",
+      "indications": "Mild-to-moderate fungal nail infections.",
+      "contraindications": "Known hypersensitivity to ciclopirox.",
+      "side_effects": "Local irritation, periungual redness.",
+      "prescription_required": true,
+      "pregnancy_warning": "Topical use generally considered low systemic risk; confirm with a doctor.",
+      "age_limit": "12+.",
+      "evidence_source": "FDA label; AAD nail fungus guidelines."
+    },
+    "Acyclovir": {
+      "drug_class": "Antiviral (nucleoside analog)",
+      "indications": "Herpes simplex, chickenpox, and shingles, especially started early.",
+      "contraindications": "Known hypersensitivity to acyclovir/valacyclovir.",
+      "side_effects": "Headache, nausea, rare kidney function changes with IV/high oral doses.",
+      "prescription_required": true,
+      "pregnancy_warning": "Generally considered usable in pregnancy when clearly indicated; confirm with a provider.",
+      "age_limit": "All ages, dosed by weight in children, as prescribed.",
+      "evidence_source": "CDC herpes/varicella guidelines; FDA label."
+    },
+    "Valacyclovir": {
+      "drug_class": "Antiviral (prodrug of acyclovir)",
+      "indications": "Herpes simplex, shingles; preferred for less frequent dosing.",
+      "contraindications": "Known hypersensitivity to valacyclovir/acyclovir; caution in advanced HIV or transplant patients (rare TTP/HUS risk).",
+      "side_effects": "Headache, nausea, dizziness.",
+      "prescription_required": true,
+      "pregnancy_warning": "Generally considered usable in pregnancy when clearly indicated; confirm with a provider.",
+      "age_limit": "12+ for most indications, as prescribed.",
+      "evidence_source": "CDC herpes/shingles guidelines; FDA label."
+    },
+    "Famciclovir": {
+      "drug_class": "Antiviral (prodrug of penciclovir)",
+      "indications": "Herpes simplex and shingles, particularly recurrent episodes.",
+      "contraindications": "Known hypersensitivity to famciclovir or penciclovir.",
+      "side_effects": "Headache, nausea, diarrhea.",
+      "prescription_required": true,
+      "pregnancy_warning": "Limited pregnancy data; use only if clearly needed under medical supervision.",
+      "age_limit": "18+ typically; pediatric use per clinician guidance.",
+      "evidence_source": "CDC herpes/shingles guidelines; FDA label."
+    },
+    "Albendazole": {
+      "drug_class": "Antiparasitic (benzimidazole)",
+      "indications": "Cutaneous larva migrans and other parasitic infections.",
+      "contraindications": "Known hypersensitivity to benzimidazole antiparasitics; caution in liver disease.",
+      "side_effects": "GI upset, headache, rare liver enzyme elevation.",
+      "prescription_required": true,
+      "pregnancy_warning": "Avoided in the first trimester unless clearly necessary; consult a physician.",
+      "age_limit": "All ages as prescribed and dosed by a physician.",
+      "evidence_source": "CDC parasitic disease guidelines."
+    },
+    "Ivermectin": {
+      "drug_class": "Antiparasitic (avermectin)",
+      "indications": "Cutaneous larva migrans, scabies, and other parasitic skin infections.",
+      "contraindications": "Known hypersensitivity to ivermectin.",
+      "side_effects": "Dizziness, nausea, rare neurological effects at high doses.",
+      "prescription_required": true,
+      "pregnancy_warning": "Limited safety data in pregnancy; use only if clearly needed under medical supervision.",
+      "age_limit": "Typically 15 kg body weight and above, as prescribed.",
+      "evidence_source": "CDC parasitic disease guidelines."
+    },
+    "Thiabendazole": {
+      "drug_class": "Antiparasitic (topical/oral benzimidazole)",
+      "indications": "Localized cutaneous larva migrans lesions (topical cream).",
+      "contraindications": "Known hypersensitivity to benzimidazole antiparasitics.",
+      "side_effects": "Local irritation (topical); GI upset and dizziness (oral form, rarely used).",
+      "prescription_required": true,
+      "pregnancy_warning": "Limited data; use only under medical supervision.",
+      "age_limit": "All ages as directed by a physician.",
+      "evidence_source": "CDC parasitic disease guidelines."
+    },
+    "Cetirizine": {
+      "drug_class": "Second-generation antihistamine",
+      "indications": "Itching from eczema, hives, allergic rashes, and chickenpox.",
+      "contraindications": "Known hypersensitivity to cetirizine or hydroxyzine.",
+      "side_effects": "Mild drowsiness, dry mouth, headache.",
+      "prescription_required": false,
+      "pregnancy_warning": "Generally considered low-risk; confirm with a doctor, especially in the first trimester.",
+      "age_limit": "2+ (pediatric dosing).",
+      "evidence_source": "FDA OTC label; AAD eczema/hives guidelines."
+    },
+    "Loratadine": {
+      "drug_class": "Second-generation antihistamine",
+      "indications": "Itching from hives, allergic rashes, and atopic dermatitis.",
+      "contraindications": "Known hypersensitivity to loratadine.",
+      "side_effects": "Headache, dry mouth, rare drowsiness.",
+      "prescription_required": false,
+      "pregnancy_warning": "Generally considered low-risk; confirm with a doctor.",
+      "age_limit": "2+ (pediatric dosing).",
+      "evidence_source": "FDA OTC label; AAD hives guidelines."
+    },
+    "Fexofenadine": {
+      "drug_class": "Second-generation antihistamine",
+      "indications": "Chronic hives (urticaria) and other allergic itching.",
+      "contraindications": "Known hypersensitivity to fexofenadine.",
+      "side_effects": "Headache, rare drowsiness, nausea.",
+      "prescription_required": false,
+      "pregnancy_warning": "Generally considered low-risk; confirm with a doctor.",
+      "age_limit": "6+ months (formulation-dependent dosing).",
+      "evidence_source": "FDA OTC label; AAD urticaria guidelines."
+    },
+    "Minoxidil": {
+      "drug_class": "Topical vasodilator (hair growth stimulant)",
+      "indications": "Androgenetic alopecia and other patterned hair thinning.",
+      "contraindications": "Scalp irritation/sunburn at application site; known hypersensitivity.",
+      "side_effects": "Scalp irritation, unwanted facial hair growth if it spreads, initial shedding phase.",
+      "prescription_required": false,
+      "pregnancy_warning": "Topical use generally discouraged in pregnancy; confirm with a doctor.",
+      "age_limit": "18+ for OTC use.",
+      "evidence_source": "FDA OTC monograph; AAD hair loss guidelines."
+    },
+    "Salicylic Acid": {
+      "drug_class": "Topical keratolytic",
+      "indications": "HPV-related skin warts; helps soften and remove thickened skin.",
+      "contraindications": "Diabetes with poor circulation, open wounds, facial/genital skin.",
+      "side_effects": "Local irritation, peeling, rare chemical burn with overuse.",
+      "prescription_required": false,
+      "pregnancy_warning": "Topical low-concentration use generally considered low-risk; confirm with a doctor.",
+      "age_limit": "2+ for most OTC wart preparations.",
+      "evidence_source": "FDA OTC wart-remover monograph."
+    },
+    "Imiquimod": {
+      "drug_class": "Topical immune response modifier",
+      "indications": "Genital/external HPV warts; stimulates local immune response against the virus.",
+      "contraindications": "Active inflammatory skin conditions at the application site.",
+      "side_effects": "Local redness, irritation, flu-like symptoms in some users.",
+      "prescription_required": true,
+      "pregnancy_warning": "Limited safety data; use only if clearly indicated under medical supervision.",
+      "age_limit": "12+.",
+      "evidence_source": "FDA label; CDC STI treatment guidelines."
+    },
+    "Paracetamol": {
+      "drug_class": "Analgesic / antipyretic",
+      "indications": "Fever and mild pain associated with chickenpox, shingles, or general illness.",
+      "contraindications": "Severe liver disease; avoid exceeding recommended daily dose.",
+      "side_effects": "Rare at recommended doses; liver toxicity with overdose.",
+      "prescription_required": false,
+      "pregnancy_warning": "Generally considered the preferred OTC pain/fever option in pregnancy; confirm dose with a doctor.",
+      "age_limit": "All ages, dosed by weight in children.",
+      "evidence_source": "FDA OTC monograph."
+    },
+    "Ibuprofen": {
+      "drug_class": "NSAID (analgesic / anti-inflammatory)",
+      "indications": "Pain management for shingles and other inflammatory skin conditions.",
+      "contraindications": "Active GI ulcer/bleeding, severe kidney disease, third-trimester pregnancy.",
+      "side_effects": "GI upset, rare kidney effects, increased bleeding risk.",
+      "prescription_required": false,
+      "pregnancy_warning": "Avoided in the third trimester; consult a doctor earlier in pregnancy too.",
+      "age_limit": "6+ months, dosed by weight in children.",
+      "evidence_source": "FDA OTC monograph."
+    }
+  },
+  "disease_medications": {
+    "Acne And Rosacea Photos": [
+      "Benzoyl Peroxide",
+      "Adapalene",
+      "Tretinoin",
+      "Azelaic Acid",
+      "Doxycycline",
+      "Minocycline",
+      "Isotretinoin"
+    ],
+    "Atopic Dermatitis Photos": [
+      "Hydrocortisone",
+      "Mometasone",
+      "Tacrolimus",
+      "Pimecrolimus",
+      "Cetirizine",
+      "Loratadine"
+    ],
+    "Ba  Cellulitis": [
+      "Cephalexin",
+      "Amoxicillin-Clavulanate",
+      "Clindamycin"
+    ],
+    "Ba Impetigo": [
+      "Mupirocin",
+      "Retapamulin",
+      "Cephalexin"
+    ],
+    "Benign": [],
+    "Fu Athlete Foot": [
+      "Clotrimazole",
+      "Terbinafine",
+      "Miconazole",
+      "Ketoconazole"
+    ],
+    "Fu Nail Fungus": [
+      "Ciclopirox",
+      "Terbinafine",
+      "Itraconazole",
+      "Fluconazole"
+    ],
+    "Fu Ringworm": [
+      "Clotrimazole",
+      "Terbinafine",
+      "Ketoconazole",
+      "Miconazole"
+    ],
+    "Hair Loss Photos Alopecia And Other Hair Diseases": [
+      "Minoxidil"
+    ],
+    "Heathy": [],
+    "Herpes Hpv And Other Stds Photos": [
+      "Acyclovir",
+      "Valacyclovir",
+      "Famciclovir",
+      "Salicylic Acid",
+      "Imiquimod"
+    ],
+    "Malignant": [],
+    "Melanoma Skin Cancer Nevi And Moles": [],
+    "Nail Fungus And Other Nail Disease": [
+      "Ciclopirox",
+      "Terbinafine",
+      "Itraconazole",
+      "Fluconazole"
+    ],
+    "Pa Cutaneous Larva Migrans": [
+      "Thiabendazole",
+      "Albendazole",
+      "Ivermectin"
+    ],
+    "Rashes": [
+      "Hydrocortisone",
+      "Cetirizine",
+      "Loratadine"
+    ],
+    "Urticaria Hives": [
+      "Cetirizine",
+      "Loratadine",
+      "Fexofenadine"
+    ],
+    "Vasculitis Photos": [
+      "Prednisone"
+    ],
+    "Vi Chickenpox": [
+      "Acyclovir",
+      "Paracetamol",
+      "Cetirizine"
+    ],
+    "Vi Shingles": [
+      "Acyclovir",
+      "Valacyclovir",
+      "Famciclovir",
+      "Paracetamol",
+      "Ibuprofen"
+    ]
+  },
+  "no_medication_notes": {
+    "Benign": "Benign lesions usually need no medication — monitor for changes and protect with sunscreen.",
+    "Heathy": "No medication needed — keep up a normal skincare and sun-protection routine.",
+    "Malignant": "Malignant lesions require oncology-directed treatment (surgery, immunotherapy, radiation) — not OTC or topical medicines. See a doctor immediately.",
+    "Melanoma Skin Cancer Nevi And Moles": "Melanoma requires oncology-directed treatment (surgical excision, immunotherapy, targeted therapy, or radiation) — not OTC medicines. See a doctor immediately."
+  }
+}
