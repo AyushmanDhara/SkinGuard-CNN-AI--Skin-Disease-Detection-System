@@ -289,6 +289,51 @@ python app.py
 
 ---
 
+# 📦 Pre-trained Model
+
+The trained **EfficientNet-B4** model is **not stored directly in the repository** to keep the repository lightweight.
+
+You can download the latest pre-trained model from the **GitHub Releases** page.
+
+## Download
+
+➡️ **GitHub Releases:**
+https://github.com/your-username/SkinGuard-AI/releases
+
+Download the following asset:
+
+```text
+best_model.pth
+```
+
+After downloading, place the model file in the project root directory:
+
+```text
+SkinGuard-AI/
+│
+├── best_model.pth
+├── app.py
+├── model.py
+├── requirements.txt
+└── ...
+```
+
+The application will automatically load the model during startup.
+
+### Model Information
+
+| Property        | Value           |
+| --------------- | --------------- |
+| Architecture    | EfficientNet-B4 |
+| Framework       | PyTorch         |
+| Disease Classes | 20              |
+| Dataset Size    | 10,000 Images   |
+| Test Accuracy   | 92.7%           |
+| Precision       | 92.76%          |
+| Recall          | 92.73%          |
+
+> **Note:** The model is distributed through GitHub Releases because binary model files are not ideal for storing directly in the repository.
+
 # ⚠️ Disclaimer
 
 SkinGuard AI and DrugGPT are intended for educational, research, and demonstration purposes only.
