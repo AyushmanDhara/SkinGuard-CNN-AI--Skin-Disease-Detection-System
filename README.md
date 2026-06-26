@@ -98,11 +98,11 @@ The system can identify multiple dermatological conditions, provide confidence s
 
 ---
 
-# 📷 Training Dashboard
+<!--# 📷 Training Dashboard
 
 ![Training Dashboard](assets/training_dashboard.png)
 
-The model demonstrates stable convergence with strong validation performance and minimal overfitting.
+The model demonstrates stable convergence with strong validation performance and minimal overfitting.-->
 
 ---
 
